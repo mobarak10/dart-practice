@@ -1,14 +1,12 @@
 import 'dart:io';
 main() {
-  // multi line string
+  // type conversion
 
-  var s1 = ''' You can create 
-  multiline string like
-  this one ''';
+  // string to int
 
-  var s2 = """ This is also 
-  multiline string""";
+  var one = int.parse('1');
+  assert(one == 1);
 
-  print(s1);
-  print(s2);
+  var onePointOne = double.parse('1.1');
+  assert(onePointOne == 1.1);
 }
