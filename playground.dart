@@ -1,9 +1,13 @@
-import 'dart:io';
-
+// collection
 main() {
-  // break & continue
-  for (var i = 0; i < 10; i++) {
-    if (i % 2 == 0) continue;
-    print("Odd: $i");
+  // list
+  List<String> names = ['Mobarak', 'Hossain'];
+
+  var names2 = [...names];
+
+  names[1] = "Joy";
+
+  for (var n in names2) {
+    print(n);
   }
 }
