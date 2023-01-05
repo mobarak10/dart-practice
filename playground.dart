@@ -1,9 +1,11 @@
 // collection
 main() {
-  // set
-  var heelogens = <String>{};
+  // map
+  var gifts = {
+    // keys     values
+    'first': 'mango',
+    'second': 'jack fruit'
+  };
 
-  Set<String> names = {};
-
-  print(names.runtimeType);
+  print(gifts['fifth']);
 }
