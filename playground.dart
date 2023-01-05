@@ -1,13 +1,9 @@
 // collection
 main() {
-  // list
-  List<String> names = ['Mobarak', 'Hossain'];
+  // set
+  var heelogens = <String>{};
 
-  var names2 = [...names];
+  Set<String> names = {};
 
-  names[1] = "Joy";
-
-  for (var n in names2) {
-    print(n);
-  }
+  print(names.runtimeType);
 }
